@@ -1,7 +1,64 @@
-# Vue 3 + Vite
+# BOTIKA FRONT END ASSESSMENT TEST
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Recommended IDE Setup
+## :gear: BEFORE YOU CODE:
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+### Recommended IDE Setup
+
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur)
+
+### Requirements:
+
+- Composer.
+- PHP 8.1+
+- MySQL/MariaDB.
+- Node js 14.18+, 16+.
+- npm
+- some of umm... SKILL
+
+
+
+## Vue 3 + Vite
+
+```bash
+npm install
+
+npm run dev
+```
+
+
+
+## The API:
+
+You can run the api with the following commands:
+
+```bash
+cd ./api
+composer install
+composer test
+composer start
+```
+
+#### Configure your connection to MySQL Server:
+
+By default, the API use a MySQL Database.
+
+You should check and edit this configuration in your `.env` file:
+
+```
+DB_HOST='127.0.0.1'
+DB_NAME='yourMySqlDatabase'
+DB_USER='yourMySqlUsername'
+DB_PASS='yourMySqlPassword'
+DB_PORT='3306'
+```
+
+## :bookmark: ENDPOINTS:
+
+### BY DEFAULT:
+
+- Hello: `GET /`
+
+- Health Check: `GET /status`
+
