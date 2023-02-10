@@ -7,7 +7,7 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\App;
 
 return static function (App $app): void {
-    $app->options('/{routes:.+}', function (Request $request, Response $response) {
+    $app->options('/{routes:.*}', function (Request $request, Response $response) {
         return $response;
     });
 

@@ -44,6 +44,12 @@ composer start
 
 By default, the API use a MySQL Database.
 
+```
+first you can create new database on your local machine
+
+then import database from dump ./api/dump-fe-assessment-202302101331.sql
+```
+
 You should check and edit this configuration in your `.env` file:
 
 ```
@@ -62,3 +68,28 @@ DB_PORT='3306'
 
 - Health Check: `GET /status`
 
+
+
+
+## :computer: CODING TIME:
+
+### BACKEND
+
+there's already have the controller, routes and model (/api/src/Repository), you just need to complete them
+
+
+### FRONTEND
+
+theres already a page at `` '/' `` in ``src\App.vue ``
+
+- you have to develop the page into responsive website with the ability to Create, Update and Delete the products there
+
+- SEO optimization will be valuable
+
+- make the API consumption as effective as possible will have a plus
+  
+- make the search feature working as effective as possible will have a plus
+#### tips :bulb:
+
+- you can use any vue component based ui framework that you prefer
+- you can create any necessary component or complete the existing components
