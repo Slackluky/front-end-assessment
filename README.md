@@ -17,7 +17,11 @@
 - npm
 - some of umm... SKILL
 
+### How To
 
+clone this repo to your machine
+checkout to a branch after your name
+commit every function / feature update
 
 ## Vue 3 + Vite
 
